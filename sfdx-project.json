@@ -1,0 +1,9 @@
+{
+  "packageDirectories": [
+	{
+	  "path": "pkg"
+	}
+  ],
+  "namespace": "",
+  "sourceApiVersion": "44.0"
+}
