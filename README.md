@@ -1,15 +1,13 @@
 # CPQ-Calculate
 
-Used to calculate and save up to 7,000 Salesforce CPQ quotes from APEX.
-
-This solution leverages the[Salesforce CPQ APIs](https://developer.salesforce.com/docs/atlas.en-us.cpq_dev_api.meta/cpq_dev_api/cpq_api_pricing_parent.htm)to read, calculate, and save quotes. 
+Used to calculate and save up to 7,000 Salesforce CPQ quotes from APEX. This solution leverages the [Salesforce CPQ APIs](https://developer.salesforce.com/docs/atlas.en-us.cpq_dev_api.meta/cpq_dev_api/cpq_api_pricing_parent.htm) to read, calculate, and save quotes. 
 
 ## Quick Start
 [![Deploy](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com)
 
 ### sandbox or production deploy
 1. Clone this repo
-2. Install the[SFDX CLI](https://developer.salesforce.com/tools/sfdxcli) 
+2. Install the [SFDX CLI](https://developer.salesforce.com/tools/sfdxcli) 
 3. Connect to your org: `sfdx force:auth:web:login`
 4. Enter your org's credential, login, then dismiss the browser
 5. Set your org as the default org: `sfdx force:config:set defaultdevhubusername=[your dev org's user name]`
